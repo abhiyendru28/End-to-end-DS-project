@@ -1,0 +1,37 @@
+[2025-09-08 13:17:06,876: INFO: main: Welcome to the end-to-end ds project]
+[2025-09-08 13:17:06,876: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-09-08 13:17:06,876: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-08 13:17:06,876: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-08 13:17:06,876: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-08 13:17:06,876: INFO: common: Created Directory at: artifacts]
+[2025-09-08 13:17:06,876: INFO: common: Created Directory at: artifacts/data_ingestion]
+[2025-09-08 13:17:08,665: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1B96:3EE007:3084FC:803851:68BE89F6
+Accept-Ranges: bytes
+Date: Mon, 08 Sep 2025 07:47:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830023-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1757317631.319990,VS0,VE357
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f8078ae94210b44b24f233a3971ae0dd8fb4ca20
+Expires: Mon, 08 Sep 2025 07:52:11 GMT
+Source-Age: 0
+
+]
+[2025-09-08 13:17:08,682: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<<
+
+x======x]
