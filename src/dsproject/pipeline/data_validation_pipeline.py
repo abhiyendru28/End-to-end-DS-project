@@ -14,6 +14,7 @@ class DataValidationPipeline:
         data_validation = DataValidation(config=data_validation_config)
         data_validation.validate_all_columns()
 
+"""
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -23,3 +24,4 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
+"""
