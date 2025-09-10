@@ -35,3 +35,28 @@ Source-Age: 0
 [2025-09-08 13:17:08,682: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<<
 
 x======x]
+[2025-09-10 12:09:49,357: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='UTF-8'> loaded successfully]
+[2025-09-10 12:09:49,360: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> loaded successfully]
+[2025-09-10 12:09:49,370: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='UTF-8'> loaded successfully]
+[2025-09-10 12:09:49,372: INFO: common: Created Directory at: artifacts]
+[2025-09-10 12:09:49,373: INFO: common: Created Directory at: artifacts/data_validation]
+[2025-09-10 12:28:21,885: INFO: main: Welcome to the end-to-end ds project]
+[2025-09-10 12:28:21,885: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-09-10 12:28:21,885: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,885: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,885: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,885: INFO: common: Created Directory at: artifacts]
+[2025-09-10 12:28:21,885: INFO: common: Created Directory at: artifacts/data_ingestion]
+[2025-09-10 12:28:21,885: INFO: data_ingestion: File already exists]
+[2025-09-10 12:28:21,896: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<<
+
+x======x]
+[2025-09-10 12:28:21,896: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<]
+[2025-09-10 12:28:21,896: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,909: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,909: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-09-10 12:28:21,909: INFO: common: Created Directory at: artifacts]
+[2025-09-10 12:28:21,909: INFO: common: Created Directory at: artifacts/data_validation]
+[2025-09-10 12:28:21,927: INFO: main: >>>>> stage Data Validation Stage completed <<<<<<
+
+x======x]
