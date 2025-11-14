@@ -208,3 +208,36 @@ x======x]
 [2025-09-14 14:51:30,870: INFO: _internal: 127.0.0.1 - - [14/Sep/2025 14:51:30] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
 [2025-09-14 14:51:30,896: INFO: _internal: 127.0.0.1 - - [14/Sep/2025 14:51:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
 [2025-09-14 14:51:58,414: INFO: _internal: 127.0.0.1 - - [14/Sep/2025 14:51:58] "POST /predict HTTP/1.1" 200 -]
+[2025-11-14 13:04:36,295: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.174.97.185:8080]
+[2025-11-14 13:04:36,298: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-14 13:04:41,019: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:04:41] "GET / HTTP/1.1" 200 -]
+[2025-11-14 13:04:41,055: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:04:41] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-11-14 13:04:41,089: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:04:41] "GET /static/css/style.css HTTP/1.1" 200 -]
+[2025-11-14 13:04:41,118: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:04:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-11-14 13:05:04,243: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:05:04] "POST /predict HTTP/1.1" 200 -]
+[2025-11-14 13:05:04,277: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:05:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]
+[2025-11-14 13:05:07,231: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:05:07] "GET / HTTP/1.1" 200 -]
+[2025-11-14 13:05:07,254: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:05:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]
+[2025-11-14 13:05:07,256: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 13:05:07] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-11-14 22:42:11,902: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.174.97.185:8080]
+[2025-11-14 22:42:11,903: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-14 22:42:14,995: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:42:14] "GET / HTTP/1.1" 200 -]
+[2025-11-14 22:42:15,055: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:42:15] "GET /static/css/style.css HTTP/1.1" 200 -]
+[2025-11-14 22:42:15,094: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:42:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-11-14 22:42:39,592: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:42:39] "POST / HTTP/1.1" 200 -]
+[2025-11-14 22:42:39,618: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:42:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]
+[2025-11-14 22:47:28,822: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.174.97.185:8080]
+[2025-11-14 22:47:28,822: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-14 22:47:42,563: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:47:42] "GET / HTTP/1.1" 200 -]
+[2025-11-14 22:47:42,631: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:47:42] "GET /static/css/style.css HTTP/1.1" 200 -]
+[2025-11-14 22:48:12,899: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:48:12] "POST / HTTP/1.1" 200 -]
+[2025-11-14 22:48:12,934: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:48:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]

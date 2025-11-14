@@ -14,6 +14,7 @@ body {
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column; /* Stack heading and form vertically */
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -173,5 +174,45 @@ body {
     /* Remove margin for the last item in a "row" before the next row */
     .form-row:last-child {
         margin-bottom: 0;
+    }
+}
+/* --- Prediction Result (on index.html) --- */
+.prediction-result {
+    text-align: center;
+    padding: 10px 0 25px 0; /* Add space */
+    border-bottom: 1px solid #eee; /* Separator line */
+    margin-bottom: 25px; /* Space before the form title */
+}
+
+.prediction-result h2 {
+    font-size: 24px;
+    color: #555;
+    margin: 0 0 10px 0;
+    text-align: center; /* Override default left-align */
+}
+
+.prediction-result h1 {
+    font-size: 42px;
+    color: #007bff; /* Blue, like the button */
+    margin: 0;
+    font-weight: 700;
+}
+/* --- Main Page Heading --- */
+.main-heading-container {
+    text-align: center;
+    margin-bottom: 20px; /* Space between heading and form card */
+}
+
+.main-heading-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+/* On mobile, make heading smaller */
+@media (max-width: 768px) {
+    .main-heading-container h1 {
+        font-size: 32px;
     }
 }

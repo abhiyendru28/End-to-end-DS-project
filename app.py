@@ -15,8 +15,9 @@ def training():
     os.system("python main.py")
     return "Training Successful!" 
 
-@app.route('/predict',methods=['POST','GET']) # route to show the predictions in a web UI
+@app.route('/',methods=['POST','GET']) # route to show the predictions in a web UI
 def index():
+    prediction_text = None
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
@@ -39,7 +40,8 @@ def index():
             obj = PredictionPipeline()
             predict = obj.predict(data)
 
-            return render_template('results.html', prediction = str(predict))
+
+            return render_template('index.html', prediction = str(predict))
 
         except Exception as e:
             print('The Exception message is: ',e)
