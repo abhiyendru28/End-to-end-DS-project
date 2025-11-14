@@ -6,11 +6,11 @@ from src.dsproject.pipeline.prediction_pipeline import PredictionPipeline
 
 app = Flask(__name__)
 
-@app.route('/',methods=['GET'])  # route to display the home page
-def homePage():
-    return render_template("index.html")
+# @app.route('/',methods=['GET'])  # route to display the home page
+# def homePage():
+#     return render_template("index.html")
 
-@app.route('/train',methods=['GET'])  # route to train the pipeline
+@app.route('/',methods=['GET'])  # route to train the pipeline
 def training():
     os.system("python main.py")
     return "Training Successful!" 
