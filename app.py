@@ -10,7 +10,7 @@ app = Flask(__name__)
 # def homePage():
 #     return render_template("index.html")
 
-@app.route('/',methods=['GET'])  # route to train the pipeline
+@app.route('/train',methods=['GET'])  # route to train the pipeline
 def training():
     os.system("python main.py")
     return "Training Successful!" 
