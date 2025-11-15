@@ -241,3 +241,50 @@ x======x]
 [2025-11-14 22:47:42,631: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:47:42] "GET /static/css/style.css HTTP/1.1" 200 -]
 [2025-11-14 22:48:12,899: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:48:12] "POST / HTTP/1.1" 200 -]
 [2025-11-14 22:48:12,934: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 22:48:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]
+[2025-11-14 23:02:49,712: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.174.97.185:8080]
+[2025-11-14 23:02:49,712: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-11-14 23:02:55,316: INFO: main: Welcome to the end-to-end ds project]
+[2025-11-14 23:02:55,316: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-14 23:02:55,327: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,339: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,349: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,350: INFO: common: Created Directory at: artifacts]
+[2025-11-14 23:02:55,350: INFO: common: Created Directory at: artifacts/data_ingestion]
+[2025-11-14 23:02:55,350: INFO: data_ingestion: File already exists]
+[2025-11-14 23:02:55,366: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<<
+
+x======x]
+[2025-11-14 23:02:55,366: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<]
+[2025-11-14 23:02:55,366: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,373: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,376: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,377: INFO: common: Created Directory at: artifacts]
+[2025-11-14 23:02:55,378: INFO: common: Created Directory at: artifacts/data_validation]
+[2025-11-14 23:02:55,394: INFO: main: >>>>> stage Data Validation Stage completed <<<<<<
+
+x======x]
+[2025-11-14 23:02:55,394: INFO: main: >>>>>>> stage Data Transformation Stage started <<<<<<]
+[2025-11-14 23:02:55,412: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,413: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,416: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,417: INFO: common: Created Directory at: artifacts]
+[2025-11-14 23:02:55,417: INFO: common: Created Directory at: artifacts/data_transformation]
+[2025-11-14 23:02:55,445: INFO: data_transformation: Splited data into training and test sets]
+[2025-11-14 23:02:55,445: INFO: data_transformation: (1199, 12)]
+[2025-11-14 23:02:55,445: INFO: data_transformation: (400, 12)]
+[2025-11-14 23:02:55,446: INFO: main: >>>>> stage Data Transformation Stage completed <<<<<<
+
+x======x]
+[2025-11-14 23:02:55,446: INFO: main: >>>>>>> stage Model Training Stage started <<<<<<]
+[2025-11-14 23:02:55,450: INFO: common: yaml file: <_io.TextIOWrapper name='config\\config.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,451: INFO: common: yaml file: <_io.TextIOWrapper name='params.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,453: INFO: common: yaml file: <_io.TextIOWrapper name='schema.yaml' mode='r' encoding='cp1252'> loaded successfully]
+[2025-11-14 23:02:55,453: INFO: common: Created Directory at: artifacts]
+[2025-11-14 23:02:55,454: INFO: common: Created Directory at: artifacts/model_trainer]
+[2025-11-14 23:02:55,488: INFO: main: >>>>> stage Model Training Stage completed <<<<<<
+
+x======x]
+[2025-11-14 23:02:55,617: INFO: _internal: 127.0.0.1 - - [14/Nov/2025 23:02:55] "GET / HTTP/1.1" 200 -]
